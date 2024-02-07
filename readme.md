@@ -1,0 +1,1 @@
+Generates a printable PDF that contains all LADXR checks.
