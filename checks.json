@@ -3,414 +3,984 @@
         "area": "Martha's Bay",
         "type": "overworld",
         "checks": [
-            "Mermaid Statue",
-            "Mermaid",
-            "Fisher",
-            "Peninsula Owl",
-            "Peninsula Dig",
-            "Mad Batter",
-            "Island Bush of Destiny",
-            "Lone Bush",
-            "Ghost House Barrel"
+            {
+                "name": "Mermaid Statue"
+            },
+            {
+                "name": "Mermaid"
+            },
+            {
+                "name": "Fisher"
+            },
+            {
+                "name": "Peninsula Owl",
+                "type": "owl"
+            },
+            {
+                "name": "Peninsula Dig"
+            },
+            {
+                "name": "Mad Batter"
+            },
+            {
+                "name": "Island Bush of Destiny"
+            },
+            {
+                "name": "Lone Bush"
+            },
+            {
+                "name": "Ghost House Barrel"
+            }
         ]
     },
     {
         "area": "Animal Village",
         "type": "overworld",
         "checks": [
-            "Grandma",
-            "Goat",
-            "Bear Cook"
+            {
+                "name": "Grandma"
+            },
+            {
+                "name": "Goat"
+            },
+            {
+                "name": "Bear Cook"
+            }
         ]
     },
     {
         "area": "Goponga Swamp",
         "type": "overworld",
         "checks": [
-            "MrWrite",
-            "Write Cave East",
-            "North of Write Owl",
-            "Write Cave West",
-            "Swampy Chest"
+            {
+                "name": "MrWrite"
+            },
+            {
+                "name": "Write Cave East"
+            },
+            {
+                "name": "North of Write Owl",
+                "type": "owl"
+            },
+            {
+                "name": "Write Cave West"
+            },
+            {
+                "name": "Swampy Chest"
+            }
         ]
     },
     {
         "area": "Tal Tal Heights",
         "type": "overworld",
         "checks": [
-            "Papahl",
-            "Manbo's Mambo",
-            "Damp Cave Heart Piece",
-            "Moblin Cave",
-            "Moblin Cave Owl"
+            {
+                "name": "Papahl"
+            },
+            {
+                "name": "Manbo's Mambo"
+            },
+            {
+                "name": "Damp Cave Heart Piece"
+            },
+            {
+                "name": "Moblin Cave"
+            },
+            {
+                "name": "Moblin Cave Owl",
+                "type": "owl"
+            }
         ]
     },
     {
         "area": "Ukuku Prairie",
         "type": "overworld",
         "checks": [
-            "Honeycomb",
-            "Kiki",
-            "Mamu",
-            "Seashell Mansion",
-            "East of Mabe Tree Bonk",
-            "East of Seashell Mansion Bush",
-            "Outside D3 Island Bush",
-            "Outside D3 Ledge Dig",
-            "Boots 'n' Bomb Cave Bombable Wall",
-            "Boots 'n' Bomb Cave Chest",
-            "Cave East of Mabe"
+            {
+                "name": "Honeycomb"
+            },
+            {
+                "name": "Kiki"
+            },
+            {
+                "name": "Mamu"
+            },
+            {
+                "name": "Seashell Mansion"
+            },
+            {
+                "name": "East of Mabe Tree Bonk"
+            },
+            {
+                "name": "East of Seashell Mansion Bush"
+            },
+            {
+                "name": "Outside D3 Island Bush"
+            },
+            {
+                "name": "Outside D3 Ledge Dig"
+            },
+            {
+                "name": "Boots 'n' Bomb Cave Bombable Wall"
+            },
+            {
+                "name": "Boots 'n' Bomb Cave Chest"
+            },
+            {
+                "name": "Cave East of Mabe"
+            }
         ]
     },
     {
         "area": "Toronbo Shores",
         "type": "overworld",
         "checks": [
-            "Banana Sale",
-            "Sword on the Beach",
-            "West of Ghost House Chest",
-            "Outside D1 Tree Bonk",
-            "Boomerang Guy Item"
+            {
+                "name": "Banana Sale"
+            },
+            {
+                "name": "Sword on the Beach"
+            },
+            {
+                "name": "West of Ghost House Chest"
+            },
+            {
+                "name": "Outside D1 Tree Bonk"
+            },
+            {
+                "name": "Boomerang Guy Item"
+            }
         ]
     },
     {
         "area": "Mabe Village",
         "type": "overworld",
         "checks": [
-            "YipYip",
-            "Papahl's Wife",
-            "Trendy Game",
-            "Trendy Powder",
-            "Rooster",
-            "Ballad of the Wind Fish",
-            "Dog House Dig",
-            "Bush Field",
-            "Fishing Game Heart Piece",
-            "Well Heart Piece",
-            "Dream Hut West",
-            "Dream Hut East",
-            "Shop 10 Item",
-            "Shop 980 Item",
-            "Shop 200 Item",
-            "Tarin's Gift"
+            {
+                "name": "YipYip"
+            },
+            {
+                "name": "Papahl's Wife"
+            },
+            {
+                "name": "Trendy Game"
+            },
+            {
+                "name": "Trendy Powder",
+                "type": "powder"
+            },
+            {
+                "name": "Rooster"
+            },
+            {
+                "name": "Ballad of the Wind Fish"
+            },
+            {
+                "name": "Dog House Dig"
+            },
+            {
+                "name": "Bush Field"
+            },
+            {
+                "name": "Fishing Game Heart Piece"
+            },
+            {
+                "name": "Well Heart Piece"
+            },
+            {
+                "name": "Dream Hut West"
+            },
+            {
+                "name": "Dream Hut East"
+            },
+            {
+                "name": "Shop 10 Item"
+            },
+            {
+                "name": "Shop 980 Item"
+            },
+            {
+                "name": "Shop 200 Item"
+            },
+            {
+                "name": "Tarin's Gift"
+            }
         ]
     },
     {
         "area": "Tal Tal Mountains",
         "type": "overworld",
         "checks": [
-            "Bird Key Cave",
-            "Access Tunnel Bombable Heart Piece",
-            "Mad Batter",
-            "Outside Mad Batter",
-            "Outside Five Chest Game",
-            "Five Chest Game",
-            "Bridge Rock",
-            "Outside D7 Owl",
-            "Paphl Cave",
-            "Access Tunnel Interior",
-            "Access Tunnel Exterior"
+            {
+                "name": "Bird Key Cave"
+            },
+            {
+                "name": "Access Tunnel Bombable Heart Piece"
+            },
+            {
+                "name": "Mad Batter"
+            },
+            {
+                "name": "Outside Mad Batter"
+            },
+            {
+                "name": "Outside Five Chest Game"
+            },
+            {
+                "name": "Five Chest Game"
+            },
+            {
+                "name": "Bridge Rock"
+            },
+            {
+                "name": "Outside D7 Owl",
+                "type": "owl"
+            },
+            {
+                "name": "Paphl Cave"
+            },
+            {
+                "name": "Access Tunnel Interior"
+            },
+            {
+                "name": "Access Tunnel Exterior"
+            }
         ]
     },
     {
         "area": "Southern Face Shrine",
         "type": "overworld",
         "checks": [
-            "Armos Knight",
-            "Outside Owl",
-            "Under Armos Cave"
+            {
+                "name": "Armos Knight"
+            },
+            {
+                "name": "Outside Owl",
+                "type": "owl"
+            },
+            {
+                "name": "Under Armos Cave"
+            }
         ]
     },
     {
         "area": "Yarna Desert",
         "type": "overworld",
         "checks": [
-            "Lanmola",
-            "Rock Seashell",
-            "Cave Under Lanmola",
-            "Bomb Arrow Cave",
-            "Desert Owl"
+            {
+                "name": "Lanmola"
+            },
+            {
+                "name": "Rock Seashell"
+            },
+            {
+                "name": "Cave Under Lanmola"
+            },
+            {
+                "name": "Bomb Arrow Cave"
+            },
+            {
+                "name": "Desert Owl",
+                "type": "owl"
+            }
         ]
     },
     {
         "area": "Mysterious Woods",
         "type": "overworld",
         "checks": [
-            "Toadstool",
-            "Hookshot Cave",
-            "Cave Skull Heart Piece",
-            "Cave Crystal Chest",
-            "Tail Key Chest",
-            "Mad Batter",
-            "Two Zol, Moblin Chest"
+            {
+                "name": "Toadstool"
+            },
+            {
+                "name": "Hookshot Cave"
+            },
+            {
+                "name": "Cave Skull Heart Piece"
+            },
+            {
+                "name": "Cave Crystal Chest"
+            },
+            {
+                "name": "Tail Key Chest"
+            },
+            {
+                "name": "Mad Batter"
+            },
+            {
+                "name": "Two Zol, Moblin Chest"
+            }
         ]
     },
     {
         "area": "Rapids Ride",
         "type": "overworld",
         "checks": [
-            "Owl",
-            "East",
-            "West",
-            "Raft Powder"
+            {
+                "name": "Rapids Owl",
+                "type": "owl"
+            },
+            {
+                "name": "Rapids East"
+            },
+            {
+                "name": "Rapids West"
+            },
+            {
+                "name": "Raft Powder",
+                "type": "powder"
+            }
         ]
     },
     {
         "area": "Kanalet Castle",
         "type": "overworld",
         "checks": [
-            "Ball and Chain Darknut Leaf",
-            "Bombable Darknut Leaf",
-            "Darknut, Zol, Bubble Leaf",
-            "Crow Rock Leaf",
-            "Bomberman Meets Whack-a-mole Leaf",
-            "In the Moat Heart Piece",
-            "Boots Pit"
+            {
+                "name": "Ball and Chain Darknut Leaf"
+            },
+            {
+                "name": "Bombable Darknut Leaf"
+            },
+            {
+                "name": "Darknut, Zol, Bubble Leaf"
+            },
+            {
+                "name": "Crow Rock Leaf"
+            },
+            {
+                "name": "Bomberman Meets Whack-a-mole Leaf"
+            },
+            {
+                "name": "In the Moat Heart Piece"
+            },
+            {
+                "name": "Boots Pit"
+            }
         ]
     },
     {
         "area": "Pothole Field",
         "type": "overworld",
         "checks": [
-            "Under Richard's House",
-            "Slime Key Dig",
-            "Slime Key Owl"
+            {
+                "name": "Under Richard's House"
+            },
+            {
+                "name": "Slime Key Dig"
+            },
+            {
+                "name": "Slime Key Owl",
+                "type": "owl"
+            }
         ]
     },
     {
         "area": "Donut Plains",
         "type": "overworld",
         "checks": [
-            "Donut Plains Ledge Owl",
-            "Donut Plains Ledge Dig",
-            "Rock Seashell"
+            {
+                "name": "Donut Plains Ledge Owl",
+                "type": "owl"
+            },
+            {
+                "name": "Donut Plains Ledge Dig"
+            },
+            {
+                "name": "Rock Seashell"
+            }
         ]
     },
     {
         "area": "Koholint Prairie",
         "type": "overworld",
         "checks": [
-            "Ghost Grave Dig",
-            "Graveyard Connector",
-            "Heart Piece of Shame",
-            "Witch Item",
-            "Witch Powder"
+            {
+                "name": "Ghost Grave Dig"
+            },
+            {
+                "name": "Graveyard Connector"
+            },
+            {
+                "name": "Heart Piece of Shame"
+            },
+            {
+                "name": "Witch Item"
+            },
+            {
+                "name": "Witch Powder",
+                "type": "powder"
+            }
         ]
     },
     {
         "area": "D0 - Color Dungeon",
         "type": "dungeon",
         "checks": [
-            "Puzzowl",
-            "Bullshit Room",
-            "Zol Chest",
-            "Nightmare Key Chest",
-            "Two Socket Chest",
-            "Entrance Chest",
-            "Entrance Owl",
-            "Upper Small Key",
-            "Upper Key Owl",
-            "Lower Small Key",
-            "Pot Powder",
-            "Tunic Fairy Item 2",
-            "Tunic Fairy Item 1"
+            {
+                "name": "Puzzowl",
+                "type": "owl"
+            },
+            {
+                "name": "Bullshit Room"
+            },
+            {
+                "name": "Zol Chest"
+            },
+            {
+                "name": "Nightmare Key Chest"
+            },
+            {
+                "name": "Two Socket Chest"
+            },
+            {
+                "name": "Entrance Chest"
+            },
+            {
+                "name": "Entrance Owl",
+                "type": "owl"
+            },
+            {
+                "name": "Upper Small Key"
+            },
+            {
+                "name": "Upper Key Owl",
+                "type": "owl"
+            },
+            {
+                "name": "Lower Small Key"
+            },
+            {
+                "name": "Pot Powder",
+                "type": "powder"
+            },
+            {
+                "name": "Tunic Fairy Item 2"
+            },
+            {
+                "name": "Tunic Fairy Item 1"
+            }
         ]
     },
     {
         "area": "D8 - Turtle Rock",
         "type": "dungeon",
         "checks": [
-            "Thunder Drum",
-            "Hot Head Heart Container",
-            "Nightmare Key/Big Zamboni Chest",
-            "West of Boss Door Ledge Chest",
-            "Lava Arrow Statue Owl",
-            "Lava Arrow Statue Key",
-            "Outside Heart Piece",
-            "Dodongo Chest",
-            "Beamos Blocked Chest",
-            "Magic Rod Chest",
-            "Lava Ledge Chest",
-            "Lava Ledge Flying Powder",
-            "Gibdos on Cracked Floor Key",
-            "Cracked Floor Flying Powder",
-            "Bombable Blocks Owl",
-            "Four Ropes Pot Chest",
-            "Zamboni, Two Zol Key",
-            "Right Lava Chest",
-            "Pot Flying Powder",
-            "Beamos Owl",
-            "Two Torches Room Chest",
-            "Spark, Pit Chest",
-            "Left Vire Key",
-            "Vacuum Mouth Chest",
-            "Left of Hinox Zamboni Chest",
-            "Push Block Chest"
+            {
+                "name": "Thunder Drum"
+            },
+            {
+                "name": "Hot Head Heart Container"
+            },
+            {
+                "name": "Nightmare Key/Big Zamboni Chest"
+            },
+            {
+                "name": "West of Boss Door Ledge Chest"
+            },
+            {
+                "name": "Lava Arrow Statue Owl",
+                "type": "owl"
+            },
+            {
+                "name": "Lava Arrow Statue Key"
+            },
+            {
+                "name": "Outside Heart Piece"
+            },
+            {
+                "name": "Dodongo Chest"
+            },
+            {
+                "name": "Beamos Blocked Chest"
+            },
+            {
+                "name": "Magic Rod Chest"
+            },
+            {
+                "name": "Lava Ledge Chest"
+            },
+            {
+                "name": "Lava Ledge Flying Powder",
+                "type": "powder"
+            },
+            {
+                "name": "Gibdos on Cracked Floor Key"
+            },
+            {
+                "name": "Cracked Floor Flying Powder",
+                "type": "powder"
+            },
+            {
+                "name": "Bombable Blocks Owl",
+                "type": "owl"
+            },
+            {
+                "name": "Four Ropes Pot Chest"
+            },
+            {
+                "name": "Zamboni, Two Zol Key"
+            },
+            {
+                "name": "Right Lava Chest"
+            },
+            {
+                "name": "Pot Flying Powder",
+                "type": "powder"
+            },
+            {
+                "name": "Beamos Owl",
+                "type": "owl"
+            },
+            {
+                "name": "Two Torches Room Chest"
+            },
+            {
+                "name": "Spark, Pit Chest"
+            },
+            {
+                "name": "Left Vire Key"
+            },
+            {
+                "name": "Vacuum Mouth Chest"
+            },
+            {
+                "name": "Left of Hinox Zamboni Chest"
+            },
+            {
+                "name": "Push Block Chest"
+            }
         ]
     },
     {
         "area": "D7 - Eagle's Tower",
         "type": "dungeon",
         "checks": [
-            "Organ of Evening Calm",
-            "Evil Eagle Heart Container",
-            "Conveyor Beamos Chest",
-            "Mirror Shield Chest",
-            "Nightmare Key/After Grim Creeper Chest",
-            "Three of a Kind, Pit Chest",
-            "Three of a Kind, Pit Owl",
-            "Kirby Ledge Chest",
-            "Hinox Key",
-            "Three of a Kind, No Pit Chest",
-            "Switch Wrapped Chest",
-            "Beamos Ledge Chest",
-            "Beamos Owl",
-            "Horse Head, Bubble Chest",
-            "Ball Owl",
-            "Entrance Key"
+            {
+                "name": "Organ of Evening Calm"
+            },
+            {
+                "name": "Evil Eagle Heart Container"
+            },
+            {
+                "name": "Conveyor Beamos Chest"
+            },
+            {
+                "name": "Mirror Shield Chest"
+            },
+            {
+                "name": "Nightmare Key/After Grim Creeper Chest"
+            },
+            {
+                "name": "Three of a Kind, Pit Chest"
+            },
+            {
+                "name": "Three of a Kind, Pit Owl",
+                "type": "owl"
+            },
+            {
+                "name": "Kirby Ledge Chest"
+            },
+            {
+                "name": "Hinox Key"
+            },
+            {
+                "name": "Three of a Kind, No Pit Chest"
+            },
+            {
+                "name": "Switch Wrapped Chest"
+            },
+            {
+                "name": "Beamos Ledge Chest"
+            },
+            {
+                "name": "Beamos Owl",
+                "type": "owl"
+            },
+            {
+                "name": "Horse Head, Bubble Chest"
+            },
+            {
+                "name": "Ball Owl",
+                "type": "owl"
+            },
+            {
+                "name": "Entrance Key"
+            }
         ]
     },
     {
         "area": "D6 - Face Shrine",
         "type": "dungeon",
         "checks": [
-            "Coral Triangle",
-            "Facade Heart Container",
-            "Pot Locked Chest",
-            "Pot Owl",
-            "Top Right Horse Heads Chest",
-            "Tile Room Key",
-            "Blade Trap Owl",
-            "Four Wizzrobe Ledge Chest",
-            "Water Tektite Chest",
-            "Raft Chest",
-            "Top Left Horse Heads Chest",
-            "Two Wizzrobe Key",
-            "Switch, Star Above Statues Chest",
-            "Stairs Across Statues Chest",
-            "Three Wizzrobe, Switch Chest",
-            "L2 Bracelet Chest",
-            "Corridor Owl",
-            "Flying Heart, Statue Chest",
-            "Mini-Moldorm, Spark Chest"
+            {
+                "name": "Coral Triangle"
+            },
+            {
+                "name": "Facade Heart Container"
+            },
+            {
+                "name": "Pot Locked Chest"
+            },
+            {
+                "name": "Pot Owl",
+                "type": "owl"
+            },
+            {
+                "name": "Top Right Horse Heads Chest"
+            },
+            {
+                "name": "Tile Room Key"
+            },
+            {
+                "name": "Blade Trap Owl",
+                "type": "owl"
+            },
+            {
+                "name": "Four Wizzrobe Ledge Chest"
+            },
+            {
+                "name": "Water Tektite Chest"
+            },
+            {
+                "name": "Raft Chest"
+            },
+            {
+                "name": "Top Left Horse Heads Chest"
+            },
+            {
+                "name": "Two Wizzrobe Key"
+            },
+            {
+                "name": "Switch, Star Above Statues Chest"
+            },
+            {
+                "name": "Stairs Across Statues Chest"
+            },
+            {
+                "name": "Three Wizzrobe, Switch Chest"
+            },
+            {
+                "name": "L2 Bracelet Chest"
+            },
+            {
+                "name": "Corridor Owl",
+                "type": "owl"
+            },
+            {
+                "name": "Flying Heart, Statue Chest"
+            },
+            {
+                "name": "Mini-Moldorm, Spark Chest"
+            }
         ]
     },
     {
         "area": "D5 - Catfish's Maw",
         "type": "dungeon",
         "checks": [
-            "Wind Marimba",
-            "Slime Eel Heart Container",
-            "Nightmare Key/Torch Cross Chest",
-            "Three Stalfos Chest",
-            "Master Stalfos Item",
-            "Flying Bomb Chest East",
-            "Swort Stalfos, Star, Bridge Chest",
-            "Two Stalfos, Star Pit Chest",
-            "Star Owl",
-            "Hookshot Note Chest",
-            "Three Iron Mask Chest",
-            "Flying Bomb Chest South",
-            "Crystal Owl",
-            "Crystal Key",
-            "Spark, Two Iron Mask Chest",
-            "Entrance Hookshottable Chest"
+            {
+                "name": "Wind Marimba"
+            },
+            {
+                "name": "Slime Eel Heart Container"
+            },
+            {
+                "name": "Nightmare Key/Torch Cross Chest"
+            },
+            {
+                "name": "Three Stalfos Chest"
+            },
+            {
+                "name": "Master Stalfos Item"
+            },
+            {
+                "name": "Flying Bomb Chest East"
+            },
+            {
+                "name": "Swort Stalfos, Star, Bridge Chest"
+            },
+            {
+                "name": "Two Stalfos, Star Pit Chest"
+            },
+            {
+                "name": "Star Owl",
+                "type": "owl"
+            },
+            {
+                "name": "Hookshot Note Chest"
+            },
+            {
+                "name": "Three Iron Mask Chest"
+            },
+            {
+                "name": "Flying Bomb Chest South"
+            },
+            {
+                "name": "Crystal Owl",
+                "type": "owl"
+            },
+            {
+                "name": "Crystal Key"
+            },
+            {
+                "name": "Spark, Two Iron Mask Chest"
+            },
+            {
+                "name": "Entrance Hookshottable Chest"
+            }
         ]
     },
     {
         "area": "D4 - Angler's Tunnel",
         "type": "dungeon",
         "checks": [
-            "Surf Harp",
-            "Angler Fish Heart Container",
-            "Nightmare Key Ledge Chest",
-            "Flippers Chest",
-            "Spark Chest",
-            "Blob Chest",
-            "Flipper Locked After Boots Pit Chest",
-            "Pit Key",
-            "Spiked Beetle Owl",
-            "Flipper Locked Before Boots Pit Chest",
-            "Upper Bomb Locked Watery Chest",
-            "Lower Bomb Locked Watery Chest",
-            "Crystal Chest",
-            "Two Spiked Beetle, Zol Chest",
-            "NW of Boots Pit Ledge Chest",
-            "Watery Statue Chest"
+            {
+                "name": "Surf Harp"
+            },
+            {
+                "name": "Angler Fish Heart Container"
+            },
+            {
+                "name": "Nightmare Key Ledge Chest"
+            },
+            {
+                "name": "Flippers Chest"
+            },
+            {
+                "name": "Spark Chest"
+            },
+            {
+                "name": "Blob Chest"
+            },
+            {
+                "name": "Flipper Locked After Boots Pit Chest"
+            },
+            {
+                "name": "Pit Key"
+            },
+            {
+                "name": "Spiked Beetle Owl",
+                "type": "owl"
+            },
+            {
+                "name": "Flipper Locked Before Boots Pit Chest"
+            },
+            {
+                "name": "Upper Bomb Locked Watery Chest"
+            },
+            {
+                "name": "Lower Bomb Locked Watery Chest"
+            },
+            {
+                "name": "Crystal Chest"
+            },
+            {
+                "name": "Two Spiked Beetle, Zol Chest"
+            },
+            {
+                "name": "NW of Boots Pit Ledge Chest"
+            },
+            {
+                "name": "Watery Statue Chest"
+            }
         ]
     },
     {
         "area": "D3 - Key Cavern",
         "type": "dungeon",
         "checks": [
-            "Sea Lily's Bell",
-            "Slime Eye Heart Container",
-            "Nightmare Door Key",
-            "Flying Bomb Owl",
-            "Two Zol, Stalfos Ledge Chest",
-            "Two Zol, Two Pairodd Key",
-            "Three Bombite Key",
-            "Three Zol, Stalfos Chest",
-            "Boots Chest",
-            "Tile Arrow Ledge Chest",
-            "Tile Arrow Owl",
-            "After Stairs Key",
-            "South Key Room Key",
-            "West Key Room Key",
-            "Zol Switch Chest",
-            "Sword Stalfos, Keese Switch Chest",
-            "North Key Room Owl",
-            "North Key Room Key",
-            "Two Stalfos, Zol Chest",
-            "Four Zol Chest",
-            "Two Bombite, Sword Stalfos, Zol Chest",
-            "Vacuum Mouth Chest"
+            {
+                "name": "Sea Lily's Bell"
+            },
+            {
+                "name": "Slime Eye Heart Container"
+            },
+            {
+                "name": "Nightmare Door Key"
+            },
+            {
+                "name": "Flying Bomb Owl",
+                "type": "owl"
+            },
+            {
+                "name": "Two Zol, Stalfos Ledge Chest"
+            },
+            {
+                "name": "Two Zol, Two Pairodd Key"
+            },
+            {
+                "name": "Three Bombite Key"
+            },
+            {
+                "name": "Three Zol, Stalfos Chest"
+            },
+            {
+                "name": "Boots Chest"
+            },
+            {
+                "name": "Tile Arrow Ledge Chest"
+            },
+            {
+                "name": "Tile Arrow Owl",
+                "type": "owl"
+            },
+            {
+                "name": "After Stairs Key"
+            },
+            {
+                "name": "South Key Room Key"
+            },
+            {
+                "name": "West Key Room Key"
+            },
+            {
+                "name": "Zol Switch Chest"
+            },
+            {
+                "name": "Sword Stalfos, Keese Switch Chest"
+            },
+            {
+                "name": "North Key Room Owl",
+                "type": "owl"
+            },
+            {
+                "name": "North Key Room Key"
+            },
+            {
+                "name": "Two Stalfos, Zol Chest"
+            },
+            {
+                "name": "Four Zol Chest"
+            },
+            {
+                "name": "Two Bombite, Sword Stalfos, Zol Chest"
+            },
+            {
+                "name": "Vacuum Mouth Chest"
+            }
         ]
     },
     {
         "area": "D2 - Bottle Grotto",
         "type": "dungeon",
         "checks": [
-            "Conch Horn",
-            "Genie Heart Container",
-            "Enemy Order Room Chest",
-            "Second Switch Locked Chest",
-            "Boo Buddies Room Chest",
-            "Before First Staircase Owl",
-            "After Hinox Owl",
-            "Outside Boo Buddies Room Chest",
-            "Outside Boo Buddies Flying Powder",
-            "Vacuum Mouth Chest",
-            "Mask-Mimic Key",
-            "Button Spawn Chest",
-            "Pit Flying Powder",
-            "First Switch Locked Chest",
-            "Switch Owl",
-            "Mask-Mimic Chest",
-            "Two Stalfos Key",
-            "Hardhat Beetle Pit Chest",
-            "Entrance Chest"
+            {
+                "name": "Conch Horn"
+            },
+            {
+                "name": "Genie Heart Container"
+            },
+            {
+                "name": "Enemy Order Room Chest"
+            },
+            {
+                "name": "Second Switch Locked Chest"
+            },
+            {
+                "name": "Boo Buddies Room Chest"
+            },
+            {
+                "name": "Before First Staircase Owl",
+                "type": "owl"
+            },
+            {
+                "name": "After Hinox Owl",
+                "type": "owl"
+            },
+            {
+                "name": "Outside Boo Buddies Room Chest"
+            },
+            {
+                "name": "Outside Boo Buddies Flying Powder",
+                "type": "powder"
+            },
+            {
+                "name": "Vacuum Mouth Chest"
+            },
+            {
+                "name": "Mask-Mimic Key"
+            },
+            {
+                "name": "Button Spawn Chest"
+            },
+            {
+                "name": "Pit Flying Powder",
+                "type": "powder"
+            },
+            {
+                "name": "First Switch Locked Chest"
+            },
+            {
+                "name": "Switch Owl",
+                "type": "owl"
+            },
+            {
+                "name": "Mask-Mimic Chest"
+            },
+            {
+                "name": "Two Stalfos Key"
+            },
+            {
+                "name": "Hardhat Beetle Pit Chest"
+            },
+            {
+                "name": "Entrance Chest"
+            }
         ]
     },
     {
         "area": "D1 - Tail Cave",
         "type": "dungeon",
         "checks": [
-            "Full Moon Cello",
-            "Moldorm Heart Container",
-            "Three of a Kind Owl",
-            "Three of a Kind Chest",
-            "Nightmare Key Chest",
-            "Feather Chest",
-            "Movable Block Owl",
-            "Spiked Beetle Owl",
-            "Bombable Wall Seashell Chest",
-            "Two Stalfos, Two Keese Chest",
-            "Mini-Moldorm Spawn Chest",
-            "Hardhat Beetles Key",
-            "Spark, Mini-Moldorm Chest",
-            "Four Zol Chest",
-            "Pit Button Chest"
+            {
+                "name": "Full Moon Cello"
+            },
+            {
+                "name": "Moldorm Heart Container"
+            },
+            {
+                "name": "Three of a Kind Owl",
+                "type": "owl"
+            },
+            {
+                "name": "Three of a Kind Chest"
+            },
+            {
+                "name": "Nightmare Key Chest"
+            },
+            {
+                "name": "Feather Chest"
+            },
+            {
+                "name": "Movable Block Owl",
+                "type": "owl"
+            },
+            {
+                "name": "Spiked Beetle Owl",
+                "type": "owl"
+            },
+            {
+                "name": "Bombable Wall Seashell Chest"
+            },
+            {
+                "name": "Two Stalfos, Two Keese Chest"
+            },
+            {
+                "name": "Mini-Moldorm Spawn Chest"
+            },
+            {
+                "name": "Hardhat Beetles Key"
+            },
+            {
+                "name": "Spark, Mini-Moldorm Chest"
+            },
+            {
+                "name": "Four Zol Chest"
+            },
+            {
+                "name": "Pit Button Chest"
+            }
         ]
     }
 ]

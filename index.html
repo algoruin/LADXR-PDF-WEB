@@ -3,17 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="shortcut icon" href="./assets/images/icon.png">
     <title>LADXR PDF</title>
 </head>
 <body>
+    <div class="settings">
+        <div class="settings-row">
+            <input type="checkbox" id="inputOwls">
+            <label for="inputOwls">Enable owls</label>
+        </div>
+        <div class="settings-row">
+            <button id="buttonPrint">Print</button>
+        </div>
+    </div>
+
     <div class="page">
+        <h1>Overworld</h1>
         <div class="overworld"></div>
+        <h1>Notes</h1>
     </div>
     <div class="page">
+        <h1>Dungeons</h1>
         <div class="dungeons"></div>
     </div>
 
-    <script type="module" src="./script.js"></script>
+    <script type="module" src="./assets/js/script.js"></script>
 </body>
 </html>
