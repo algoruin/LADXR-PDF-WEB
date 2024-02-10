@@ -1,13 +1,16 @@
-import areas from '../../checks.json' assert { type: 'json' };
+import areas_initial from '../../checks.json' assert { type: 'json' };
 
 const settings = {
     owls: false,
 }
 
+var areas = null;
+
 /**
  * Render the contents to the page.
  */
 function drawPage() {
+    const areas = getChecks();
     const pageOverworld = document.querySelector('.overworld');
     const pageDungeons = document.querySelector('.dungeons');
     // Clear pages.
@@ -49,8 +52,31 @@ function drawPage() {
             if(check.type == "owl" && !settings.owls) {
                 return false;
             }
+            const checkBox = document.createElement('input');
+            checkBox.type = "checkbox";
+            checkBox.name = check.name.trim().replace(" ", "");
+            checkBox.id = check.name.trim().replace(" ", "");
+            if (check.done) {
+                checkBox.checked = true;
+            }
+            checkBox.addEventListener('change',  () => {
+                let ar = getChecks();
+                for (let a = 0; a < ar.length; a++) {
+                    for (let c = 0; c < ar[a].checks.length; c++) {
+                        if (ar[a].checks[c].name.trim().replace(" ", "") == checkBox.name) {
+                            ar[a].checks[c].done = true;
+                        }
+                    }
+                }
+                console.log(ar);
+                setChecks(ar);
+            });
+            const checkBoxLabel = document.createElement('label');
+            checkBoxLabel.for = checkBox.name;
+            checkBoxLabel.innerHTML = check.name;
             const checkItem = document.createElement('li');
-            checkItem.innerHTML = check.name;
+            checkItem.appendChild(checkBox);
+            checkItem.appendChild(checkBoxLabel);
             // Add owl icon.
             if(check.type == "owl") {
                 checkItem.innerHTML += ' 🦉';
@@ -59,17 +85,39 @@ function drawPage() {
         })
     })
 }
-drawPage();
+
+function setChecks(areas) {
+    for (let a = 0; a < areas.length; a++) {
+        for (let c = 0; c < areas[a].checks.length; c++) {
+            if (!areas[a].checks[c].done)
+                areas[a].checks[c].done = false;
+        }
+    }
+    
+    localStorage.setItem('areas', JSON.stringify(areas));
+}
+
+function getChecks() {
+    return JSON.parse(localStorage.getItem('areas'));
+}
+
+function init() {
+    if (getChecks() == null)
+        setChecks(areas_initial);
+    drawPage();
+}
+
+init();
 
 /**
  * Init UI functionality.
  */
 function ui() {
-    // Print!
-    const buttonPrint = document.querySelector('#buttonPrint');
-    buttonPrint.addEventListener('click', () => {
-        window.print();
-    })
+    // Clear!
+    const buttonClear = document.querySelector("#buttonClear");
+    buttonClear.addEventListener('click', () => {
+        setChecks(areas_initial);
+    });
     // Owls toggle.
     const inputOwls = document.querySelector('#inputOwls');
     inputOwls.addEventListener('click', () => {
